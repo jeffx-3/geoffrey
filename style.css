@@ -239,7 +239,7 @@ section .button button{
   color: #fff;
   border: 2px solid transparent;
   cursor: pointer;
-  transition: all 0.3s ease;
+  transition: all 0.2s ease;
 }
 section .button button:hover{
   background-color: black;
