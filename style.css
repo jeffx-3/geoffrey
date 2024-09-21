@@ -132,12 +132,15 @@ nav ul{
  }
  .card-list span{
    display: inline-block;
+   font-weight: 400;
+  
  }
  .card-item h3{
    color: #000;
    font-size: 1.4rem;
    margin-top: 28px;
    font-weight: 300;
+
 
  }
  .card-item .log{
@@ -152,9 +155,9 @@ nav ul{
    transition: 0.2s ease;
 
  }
- .card-list .card-item:hover .arrow{
-   background: black;
-   color: white;
+ .card-list .card-item:hover .log{
+   background: white;
+   color: black;
 
  }
  .title h2{
@@ -242,24 +245,7 @@ section .button button:hover{
   background-color: black;
   color: #fff;
 }
-/*contact*/
-.contact{
-  background: #F0F8FF;
-}
-.contact .content{
-  margin: 0 auto;
-  padding: 30px 0;
-}
-.contact .text{
-  width: 80%;
-  text-align: center;
-  margin: auto;
-}
-.contact .button button {
-  margin-right: 10px;
-  font-weight: 200;
-  font-size: 20px;
-}
+
 /*footer*/
 footer{
   position: relative;
@@ -322,10 +308,4 @@ footer{
   .card-list{
    margin: auto;
   }
- }
- @media screen and (max-width: 560px){
-  .contact .button button a {
-    font-size: 20px;
-  }
-  
  }
