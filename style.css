@@ -127,10 +127,11 @@ section .tools{
   gap: 10px;
   margin-left: 20%;
   margin-right: 20%;
+  height: 25vh;
 
 }
 section .tools img{
-  height: 100px;
+  height: 100%;
   width: 100%;
   object-fit: cover;
 }
@@ -144,10 +145,11 @@ section .skills{
   gap: 10px;
   margin-left: 10%;
   margin-right: 10%;
+  height: 25vh;
 
 }
 section .skills img{
-  height: 100px;
+  height: 100%;
   width: 100%;
   
   object-fit: cover;
