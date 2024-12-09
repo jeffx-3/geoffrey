@@ -124,13 +124,15 @@ section .tools{
   grid-template-columns: repeat(4, 1fr);
   align-items: center;
   justify-content: center;
+  gap: 10px;
   margin-left: 20%;
   margin-right: 20%;
 
 }
 section .tools img{
-  height: auto;
+  height: 100px;
   width: 100%;
+  object-fit: cover;
 }
 
 
@@ -139,13 +141,15 @@ section .skills{
   grid-template-columns: repeat(6, 1fr);
   align-items: center;
   justify-content: center;
+  gap: 10px;
   margin-left: 10%;
   margin-right: 10%;
 
 }
 section .skills img{
-  height: auto;
+  height: 100px;
   width: 100%;
+  object-fit: cover;
 }
 
  /*Projects*/
