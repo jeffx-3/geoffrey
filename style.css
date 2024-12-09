@@ -130,7 +130,8 @@ section .tools{
 
 }
 section .tools img{
-  height: 100px;
+  height: 80px;
+  display: block;
   width: 100%;
   object-fit: cover;
 }
@@ -147,8 +148,9 @@ section .skills{
 
 }
 section .skills img{
-  height: 100px;
+  height: 80px;
   width: 100%;
+  display: block;
   object-fit: cover;
 }
 
