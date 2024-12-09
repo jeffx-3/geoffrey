@@ -22,11 +22,16 @@ nav{
    width: 100%;
    background: #F0F8FF;
   padding: 10px;
-  position: fixed;
+  font-family: "Raleway", serif;
 
 }
 .nav  h2, .logo{
   padding: 13px;
+
+}
+nav h2{
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 nav img{
    height: 45px;
@@ -44,7 +49,7 @@ nav ul{
  nav a{
    text-decoration: none;
    color: black;
-   font-weight: 300;
+   font-weight: 700;
    
  }
 
@@ -64,10 +69,12 @@ nav ul{
    padding: 0 15px;
    max-width: 1200px;
    margin: 0 auto;
+  
  }
  .hero-section .hero {
    max-width: 50%;
    color: black;
+   font-family: "Noto Sans", serif;
  }
  .hero h2 {
    font-size: 2.5rem;
@@ -103,6 +110,44 @@ nav ul{
    background-color: skyblue;
  }
 
+/*Skills and tools styling*/
+section h2{
+  text-align: center;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  margin-top: 10px;
+  margin-bottom: 13px;
+}
+
+section .tools{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: center;
+  justify-content: center;
+  margin-left: 20%;
+  margin-right: 20%;
+
+}
+section .tools img{
+  height: auto;
+  width: 100%;
+}
+
+
+section .skills{
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  align-items: center;
+  justify-content: center;
+  margin-left: 10%;
+  margin-right: 10%;
+
+}
+section .skills img{
+  height: auto;
+  width: 100%;
+}
+
  /*Projects*/
  .card-list{
    display: grid;
@@ -137,11 +182,18 @@ nav ul{
   
  }
  .card-item h3{
-   color: #000;
+   color: black;
    font-size: 1.4rem;
    margin-top: 28px;
-   font-weight: 300;
+   font-weight: 600;
 
+
+ }
+ .card-item p{
+  font-family: "Open Sans", serif;
+  line-height: 1.5;
+  letter-spacing: 0.05em;
+  margin-top: 10px;
 
  }
  .card-item .log{
@@ -154,7 +206,11 @@ nav ul{
    border-radius: 50%;
    margin-top: 40px;
    transition: 0.2s ease;
+  
 
+ }
+ .card-item a{
+   margin-bottom: 5px;
  }
  .card-list .card-item:hover .log{
    background: white;
@@ -164,6 +220,8 @@ nav ul{
  .title h2{
    text-align: center;
    margin-top: 10px;
+   letter-spacing: 0.02em;
+   line-height: 1.2;
  }
 /*about section*/
  section{
@@ -217,13 +275,18 @@ section .title span::after{
 .about-details .right{
   width: 55%;
 }
+
 section  .topic{
   color: #0E2431;
-  font-size: 25px;
+  font-size: 50px;
   font-weight: 500;
   margin-bottom: 10px;
+  font-family: "Italianno", serif;
 }
 .about-details .right p{
+  font-family: "Open Sans", serif;
+  line-height: 1.5;
+  letter-spacing: 0.05em;
   text-align: justify;
   color: #0E2431;
 }
