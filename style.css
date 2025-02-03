@@ -386,6 +386,9 @@ footer{
   background: #0E2431;
   color: #00bfff;
 }
+footer a{
+  text-decoration: none;
+}
 /*responsive designing*/
  @media screen and (max-width: 1023px) {
   
