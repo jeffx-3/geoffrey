@@ -338,18 +338,7 @@ section .title span::after{
     z-index: 0; 
     position: relative;
 }
-.about .left img::before {
-  content: "";
-  position: absolute;
-  top: 10px; 
-  left: 10px; 
-  width: 450;
-  height: auto;
-  border: 2px solid #3b82f6; 
-  border-radius: 14px; 
-  z-index: 1; 
-  transform: translate(-5%, -5%); 
-}
+
 .about-details .right{
   width: 55%;
 }
@@ -422,6 +411,7 @@ footer{
   section .content{
     width: 85%;
   }
+ 
   .about .about-details{
     justify-content: center;
     flex-direction: column;
@@ -468,6 +458,11 @@ footer{
     line-height: 1;
     letter-spacing: 0.01rem;
   }
+  nav ul{
+    gap: 10px;
+    padding: 10px;
+    
+  }
   
   /*hero responsive styling*/
   .hero-section{
@@ -489,6 +484,9 @@ footer{
     padding: 5px;
     
   }
+  section topic{
+    font-size: 1rem;
+  }
 
   .hero h2{
     font-size: 1.5rem;
@@ -509,6 +507,10 @@ footer{
 
   body{
     overflow-x: hidden;
+  }
+
+  .about-details .right p{
+    letter-spacing: 0.03em;
   }
 
   .skills{
