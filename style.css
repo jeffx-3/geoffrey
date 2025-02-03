@@ -456,10 +456,13 @@ footer{
   nav{
     width: 100%;
     padding: 5px;
+    overflow-x: hidden;
   }
-  .nav h2,
+
+  h2,
   .logo{
     padding: 5px;
+    font-size: 1.5rem;
   }
   nav h2{
     line-height: 1;
@@ -472,6 +475,7 @@ footer{
     display: grid;
     grid-template-columns: 10% 90%;
     gap: 5px;
+    overflow-x: hidden;
   }
 
   .hero-section .socials{
@@ -483,6 +487,7 @@ footer{
     margin-left: 5px;
     max-width: 95%;
     padding: 5px;
+    
   }
 
   .hero h2{
@@ -539,6 +544,10 @@ footer{
     margin-bottom: 10px;
 
 
+  }
+  footer{
+    max-width: 100%;
+    overflow-x: hidden;
   }
 
 
