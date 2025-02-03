@@ -229,6 +229,7 @@ section h2{
  .card-list span{
    display: inline-block;
    font-weight: 400;
+   color: #00bfff;
   
  }
  .card-item h3{
