@@ -36,11 +36,7 @@ nav h2{
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
-nav img{
-   height: 45px;
-   width: 45px;
-   border-radius: 45px;
-}
+
 nav ul{
    display: inline-flex;
    align-items: center;
@@ -454,4 +450,92 @@ footer{
   .card-list{
    margin: auto;
   }
+ }
+ @media (max-width: 416px) {
+  /*nav reponsive styling*/
+  nav{
+    padding: 5px;
+  }
+  .nav h2,
+  .logo{
+    padding: 5px;
+  }
+  nav h2{
+    line-height: 1;
+    letter-spacing: 0.01rem;
+  }
+  
+  /*hero responsive styling*/
+  .hero-section{
+    display: grid;
+    grid-template-columns: 10% 90%;
+    gap: 5px;
+  }
+
+  .hero-section .socials{
+    gap: 2px;
+    margin-left: 10px;
+  }
+
+  .hero-section .hero{
+    margin-left: 5px;
+    max-width: 95%;
+    padding: 5px;
+  }
+
+  .hero h2{
+    font-size: 1.5rem;
+    width: 90%;
+  }
+
+  .hero h2 span{
+    font-size: 1.5rem;
+  }
+/*skills responsive styling*/
+  section h2{
+    line-height: 1;
+    letter-spacing: 0.01rem;
+    margin-top: 5px;
+    margin-bottom: 7px;
+
+  }
+
+  body{
+    overflow-x: hidden;
+  }
+
+  .skills{
+    display: flex;
+    gap: 0;
+    align-items: center;
+  }
+
+  .skills .img{
+    display: none;
+
+  }
+  
+  .skills .tools ul{
+    gap: 7px;
+    max-width: 100%;
+  }
+  .skills .tools{
+    padding: 10px;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+  }
+  .skills .tools ul img{
+    height: 40px;
+    width: 40px;
+    border-radius: 40%;
+    margin-bottom: 10px;
+
+
+  }
+
+
+
+
+
  }
