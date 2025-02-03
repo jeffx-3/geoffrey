@@ -451,9 +451,10 @@ footer{
    margin: auto;
   }
  }
- @media (max-width: 416px) {
+ @media (max-width: 1152px) {
   /*nav reponsive styling*/
   nav{
+    width: 100%;
     padding: 5px;
   }
   .nav h2,
@@ -467,6 +468,7 @@ footer{
   
   /*hero responsive styling*/
   .hero-section{
+    width: 100%;
     display: grid;
     grid-template-columns: 10% 90%;
     gap: 5px;
@@ -507,7 +509,12 @@ footer{
   .skills{
     display: flex;
     gap: 0;
+    padding: 10px;
     align-items: center;
+    max-width: 100%;
+    margin: 10px auto; 
+    overflow-x: hidden;
+    justify-content: center;
   }
 
   .skills .img{
